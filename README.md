@@ -38,9 +38,3 @@ Happy coding! 🚀
 
 
 ---
-
-### **How to Use**
-1. Copy the text above into a new **`README.md`** file.
-2. Push the file to your GitHub repository.
-
-Let me know if you need further assistance or modifications! 😊
