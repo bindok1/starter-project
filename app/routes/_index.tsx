@@ -52,7 +52,6 @@ export default function Index() {
     </div>
   );
 }
-
 const resources = [
   {
     href: "https://remix.run/start/quickstart",
@@ -136,3 +135,4 @@ const resources = [
     ),
   },
 ];
+
