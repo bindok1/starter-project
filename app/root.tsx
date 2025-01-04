@@ -5,12 +5,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-<<<<<<< Updated upstream
 
 import { Provider } from "app/components/ui/provider";
-=======
-import { Provider } from "~/components/ui/provider";
->>>>>>> Stashed changes
 import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
@@ -39,25 +35,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <Provider>
-          {children}
-<<<<<<< Updated upstream
-          <ScrollRestoration />
-          <Scripts />
-        </Provider>
-=======
-        </Provider>
+        {children}
         <ScrollRestoration />
         <Scripts />
->>>>>>> Stashed changes
+        </Provider>
       </body>
     </html>
   );
 }
 
 export default function App() {
-  return (
-    <Provider>
-      <Outlet />
-    </Provider>
-  );
+  return <Outlet />;
 }
